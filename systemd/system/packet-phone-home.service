@@ -2,6 +2,7 @@
 ConditionKernelCommandLine=|ignition.platform.id=packet
 ConditionKernelCommandLine=|flatcar.oem.id=packet
 ConditionKernelCommandLine=|coreos.oem.id=packet
+ConditionKernelCommandLine=|flatcar.first_boot=detected
 
 Description=Report Success to Packet
 ConditionFirstBoot=true
